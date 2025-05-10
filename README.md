@@ -27,9 +27,9 @@ Statistic descriptive and statistic inferential are used in this project.
 
 ## Stacks
 
-Programming language: Python
-Tools: VSCode, Tableau, Canva
-Libraries: Pandas, Scipy, Matplotlib, Seaborn
+- Programming language: Python
+- Tools: VSCode, Tableau, Canva
+- Libraries: Pandas, Scipy, Matplotlib, Seaborn
 
 
 ## Reference
