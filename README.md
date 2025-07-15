@@ -1,43 +1,54 @@
-# Analysis of Cancellation Rate
+# Hotel Cancellation Analysis Dashboard
 
 ## Introduction
 
-Hi! Neila here. Before jumping into the long explanation, let me introduce myself a little bit. I'm currently transitioning into the data world — previously, I worked as an internal auditor. This project is part of my learning journey, and TL;DR: it’s definitely far from perfect.
+Hi, I'm Neila! 👋  
+As part of my journey transitioning from internal audit to data analytics, this is one of the first projects where I applied data analysis skills to a real-world dataset. I’ve always had an interest in the hotel industry, so I built a fictional business case around this dataset to explore what drives cancellation behavior.
 
-So, why did I choose this dataset? Well, I’ve always had an interest in hotel-related things, and the Hotel Booking Demand dataset immediately caught my attention. I created a fictional business case around it and jumped in as a data analyst to try solving the problem.
-
+---
 ## Repository Outline
-This project's file consists:
 
-    1. README.md - General overview
-    2. analysis_project.ipynb - This notebook follows an analytical process using Python to identify and analyze the cancellation rate using the Kaggle Dataset (Hotel Booking Demand).
+    1. README.md - Overview the project
+    2. analysis_project.ipynb - Python notebook for data cleaning and analysis
+    3. hotel_bookings.csv - Raw data
+    4. main_df.csv - Cleaned data
 
 
 ## Problem Background
-A high cancellation rate in the hotel industry will affect their profit. To minimize it, we need to know its pattern and trend of this booking cancellation phenomenon, what is customer type that has highest cancellation rate, what is distribution channel that has highest/lowest cancellation rate, and the factors related to it. Once we understand all of these factors, we can choose the best approach to address it.
+A high cancellation rate directly impacts hotel revenue. In this project, I aim to:
 
-## Project Output
-The output of this project is a dashboard that consists of charts and the result of statistic measurement.
+- Identify customer types and channels with the highest cancellation rates
+- Explore trends and patterns related to booking behavior
+- Recommend data-driven actions to reduce cancellations
 
-## Data
-Data used in this project is from Kaggle named Hotel Booking Demand dataset. This dataset has 119.390 rows and 32 columns. For this project, only 13 columns used for analytical process. They are `'hotel', 'is_canceled', 'customer_type', 'distribution_channel', 'is_repeated_guest', 'is_repeated_guest', 'lead_time', 'booking_changes', 'previous_cancellations', 'previous_bookings_not_canceled', 'adr', 'arrival_date_year', 'arrival_date_month', 'arrival_date_day_of_month'`. Those 13 columns don't have any missing values.
+## Dataset
+- **Source**: [Hotel Booking Demand – Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)  
+- **Rows**: 119,390  
+- **Columns used**: 13 out of 32 (clean subset with no missing values)  
+  > Includes: `is_canceled`, `customer_type`, `distribution_channel`, `lead_time`, `previous_cancellations`, `adr`, etc.
 
 ## Method
-Statistic descriptive and statistic inferential are used in this project.
+- Descriptive Statistics (EDA)
+- Basic Inferential Statistics (t-test, correlation)
+- Visual analysis with Tableau Dashboard
 
 ## Stacks
-
-- Programming language: Python
-- Tools: VSCode, Tableau, Canva
-- Libraries: Pandas, Scipy, Matplotlib, Seaborn
-
+- **Language**: Python  
+- **Libraries**: Pandas, Scipy, Matplotlib, Seaborn  
+- **Tools**: VSCode, Tableau, Canva
 
 ## Reference
-- Dashboard link:
-    https://public.tableau.com/views/CancelRateAnalysisinCityHotelandResortHotel/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-
-- Presentation link:
-    https://www.canva.com/design/DAGmxpQ8_XA/NJHpLqcv_DH2vtt7DcwKgw/edit?utm_content=DAGmxpQ8_XA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- [🔗 Tableau Dashboard](https://public.tableau.com/views/CancelRateAnalysisinCityHotelandResortHotel/Dashboard1?:language=en-US&publish=yes)  
+- [🖼 Presentation (Canva)](https://www.canva.com/design/DAGmxpQ8_XA/NJHpLqcv_DH2vtt7DcwKgw/edit)
 
 
-Disclaimer: Even though I mentioned it earlier in my intro, I'll say it again: this is my very first project since transitioning my career into Data Science, so there may be several imperfections. If you want to discuss or ask further information about the scripts/dashboard, you can contact me on email: neila.ismahunnisa@gmail.com or LinkedIn page: https://www.linkedin.com/in/neila-ismahunnisa/. Any suggestion and critics are welcome!
+---
+
+## 💬 Notes
+
+This was my first end-to-end analytics project since moving into data, and it’s part of my learning journey. If you'd like to give feedback, ask questions, or collaborate, feel free to reach out:
+
+📧 neila.ismahunnisa@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/neila-ismahunnisa/)
+
+Suggestions and feedback are very welcome
