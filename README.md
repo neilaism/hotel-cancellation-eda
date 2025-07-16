@@ -46,13 +46,13 @@ A high cancellation rate can seriously affect hotel revenue and operational plan
 
 ## 📈 Output
 
-- 📊 **Tableau Dashboard (Draft)**  
+- 📊 **Tableau Dashboard**  
   [🔗 View on Tableau Public](https://public.tableau.com/views/CancellationReport_17526434997200/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
   _Note: This is updated version._
 
 - 🖼️ **Presentation (Canva)**  
-  [🔗 View on Canva](https://www.canva.com/design/DAGmxpQ8_XA/NJHpLqcv_DH2vtt7DcwKgw/edit)  
-  _Note: Currently under revision. Will be finalized shortly._
+  [🔗 View on Canva](https://www.canva.com/design/DAGmxpQ8_XA/NJHpLqcv_DH2vtt7DcwKgw/edit?utm_content=DAGmxpQ8_XA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+  _Note: This is updated version._
 
 ---
 
